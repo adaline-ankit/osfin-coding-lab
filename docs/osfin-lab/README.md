@@ -38,3 +38,5 @@ The demo uses **FakeRest in the browser** and generated CRM data. It does not pr
 7. Request explicit exact-head approval for merge/deployment; report the verified result or blocker.
 
 Per-bank scenarios, native machine grants, real Wiki retrieval, previews and Slack execution are later gates. This bootstrap alone does not implement them. No employee performance assessment is included in this app experiment.
+
+On the separate `lab/scenarios` branch, see [synthetic deployment scenarios](scenarios.md) for the healthy/broken bank fixtures. This branch does not merge the bootstrap PR or establish a native coding-agent connection.
