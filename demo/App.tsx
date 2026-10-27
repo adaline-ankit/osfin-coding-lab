@@ -7,6 +7,8 @@ import { memoryStore } from "ra-core";
 
 const App = () => (
   <CRM
+    title="Osfin Coding Lab — synthetic demo"
+    disableTelemetry
     dataProvider={dataProvider}
     authProvider={authProvider}
     store={memoryStore()}
