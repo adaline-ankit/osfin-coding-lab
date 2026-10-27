@@ -26,7 +26,10 @@ export const isOverdue = (dateString: string) => {
 
 export const isDueToday = (dateString: string) => {
   const dueDate = new Date(dateString);
-  return dueDate >= startOfToday() && dueDate < endOfToday();
+  return (
+    dueDate >= startOfToday() &&
+    dueDate < new Date(new Date().setHours(12, 0, 0, 0))
+  );
 };
 
 export const isDueTomorrow = (dateString: string) => {
